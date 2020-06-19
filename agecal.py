@@ -1,5 +1,6 @@
 
 from tkinter import *
+
 from datetime import date
 
 root = Tk()
@@ -38,7 +39,5 @@ def calculator_Age():
     nameEntry.grid(row = 2, column = 1, pady = 10)
     nameEntry.grid(row = 3, column = 1, pady = 10)
     nameEntry.grid(row = 4, column = 1, pady = 10)
-
     Button(text ="Calculate age", command = calculteAge).grid(rwo =5, column = 1, pady = 10)
-
     root.mainloop()
